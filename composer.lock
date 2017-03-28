@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4f73d40a010af79fe661bd33f47761ab",
+    "content-hash": "7a3f69fe5f58f0b26f4f995bf72355af",
     "packages": [
         {
             "name": "anax/common",
@@ -106,6 +106,55 @@
                 "mvc"
             ],
             "time": "2017-03-13T19:07:56+00:00"
+        },
+        {
+            "name": "anax/response",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/canax/response.git",
+                "reference": "9af4ec6aa42ad31127e78075cec00af165671044"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/canax/response/zipball/9af4ec6aa42ad31127e78075cec00af165671044",
+                "reference": "9af4ec6aa42ad31127e78075cec00af165671044",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Anax\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "mos@dbwebb.se",
+                    "homepage": "https://dbwebb.se",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Anax Response module.",
+            "homepage": "https://dbwebb.se/anax",
+            "keywords": [
+                "boilerplate",
+                "education",
+                "framework",
+                "micro",
+                "mvc"
+            ],
+            "time": "2017-03-13T15:32:20+00:00"
         },
         {
             "name": "anax/router",
