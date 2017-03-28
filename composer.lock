@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a3f69fe5f58f0b26f4f995bf72355af",
+    "content-hash": "f22a764e8cded77fc883bbad43471792",
     "packages": [
         {
             "name": "anax/common",
@@ -254,6 +254,56 @@
                 "mvc"
             ],
             "time": "2017-03-10T12:53:10+00:00"
+        },
+        {
+            "name": "anax/view",
+            "version": "v1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/canax/view.git",
+                "reference": "253d46117427dc089987e1505c98b1969a6779e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/canax/view/zipball/253d46117427dc089987e1505c98b1969a6779e1",
+                "reference": "253d46117427dc089987e1505c98b1969a6779e1",
+                "shasum": ""
+            },
+            "require": {
+                "anax/common": "^1.0",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Anax\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "mos@dbwebb.se",
+                    "homepage": "https://dbwebb.se",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Anax View module.",
+            "homepage": "https://dbwebb.se/anax",
+            "keywords": [
+                "boilerplate",
+                "education",
+                "framework",
+                "micro",
+                "mvc"
+            ],
+            "time": "2017-03-27T00:18:04+00:00"
         }
     ],
     "packages-dev": [],
