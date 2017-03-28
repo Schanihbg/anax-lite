@@ -42,3 +42,12 @@ echo "<p><a href='$aUrl'>Url to some/route</a> ($aUrl)";
 
 $aUrl = $url->create("some/where/some/route");
 echo "<p><a href='$aUrl'>Another url to some/where/some/route</a> ($aUrl)";
+
+// Create the router
+$router = new \Anax\Route\RouterInjectable();
+
+// Load the routes
+require ANAX_INSTALL_PATH . "/config/route.php";
+
+// Leave to router to match incoming request to routes
+$router->handle($request->getRoute(), $request->getMethod());

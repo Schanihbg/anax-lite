@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "792e28d82338ca0d936df3a9fd74d68f",
+    "content-hash": "b28b89b36ba8e434254d4139dc39301d",
     "packages": [
         {
             "name": "anax/common",
@@ -106,6 +106,55 @@
                 "mvc"
             ],
             "time": "2017-03-13T19:07:56+00:00"
+        },
+        {
+            "name": "anax/router",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/canax/router.git",
+                "reference": "29755b0357407b503866779236fa69c0fe1a87f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/canax/router/zipball/29755b0357407b503866779236fa69c0fe1a87f1",
+                "reference": "29755b0357407b503866779236fa69c0fe1a87f1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Anax\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "mos@dbwebb.se",
+                    "homepage": "https://dbwebb.se",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Anax Router module.",
+            "homepage": "https://dbwebb.se/anax",
+            "keywords": [
+                "boilerplate",
+                "education",
+                "framework",
+                "micro",
+                "mvc"
+            ],
+            "time": "2017-03-26T20:55:23+00:00"
         },
         {
             "name": "anax/url",
