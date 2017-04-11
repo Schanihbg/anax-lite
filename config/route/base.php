@@ -10,6 +10,14 @@ $app->router->add("", function () use ($app) {
     $app->response->setBody([$app->view, "render"])->send();
 });
 
+$app->router->add("report", function () use ($app) {
+    $app->view->add("site/header", ["title" => "Report"]);
+    $app->view->add("site/navbar");
+    $app->view->add("site/page/report");
+
+    $app->response->setBody([$app->view, "render"])->send();
+});
+
 $app->router->add("about", function () use ($app) {
     $app->view->add("site/header", ["title" => "About"]);
     $app->view->add("site/navbar");
